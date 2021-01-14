@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "组件管理",
+      "identifier": "sketch-webview-kit.my-command-identifier",
+      "script": "__my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "Piccel工具插件",
+    "items": [
+      "sketch-webview-kit.my-command-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "sketch-webview-kit",
+  "identifier": "sketch-webview-kit",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "kaiqiu",
+  "authorEmail": "kaiqiu@iflytek.com"
+}
